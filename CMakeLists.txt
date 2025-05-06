@@ -12,7 +12,7 @@ endif()
 project ("ghjtrn")
 
 # Добавьте источник в исполняемый файл этого проекта.
-add_executable (ghjtrn "ghjtrn.cpp" "ghjtrn.h")
+add_executable (ghjtrn  "ghjtrn.h")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET ghjtrn PROPERTY CXX_STANDARD 20)
